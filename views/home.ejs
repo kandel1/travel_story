@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <% include partials/head.ejs %>
+
+  </head>
+  <body>
+    <% include partials/header.ejs %>
+    <div id="hero-image">
+      <h1 id="hero-title"><% title %> Travel Diaries </h1>
+    </div>
+
+    <div id="posters-wrapper" class="content-padding clearfix">
+
+    <% for (var i = 0; i<location.length; i++) {  %>
+      <div class="poster">
+        <img src="/images/<%= location[i].poster %>" class= "img-responsive">
+        <div class="poster-info-overlay">
+          <h3><%= location[i].title  %></h3>
+          <h4>View More <i class="fa fa-arrow-right"></i></h4>
+
+        </div>
+      </div>
+
+      <% } %>
+
+
+
+      <% include partials/scripts.ejs %>
+
+  </body>
+</html>

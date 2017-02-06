@@ -1,0 +1,197 @@
+/* --------------------------
+General Styles
+----------------------------- */
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	color: #333;
+}
+
+.content-padding {
+	padding-left: 11%;
+	padding-right: 11%;
+}
+/* --------------------------
+Hero Image / Title Styles
+----------------------------- */
+#hero-image {
+	height: 550px;
+	width: 100%;
+	background-color: #444;
+	background-image: url('../images/b.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+}
+#hero-image::before {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.15);
+	content: "";
+}
+
+#hero-image #hero-title {
+	position: absolute;
+	background-color: #fff;
+	padding: 25px 60px;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+
+  bottom: 0;
+  margin: 0px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.20em;
+  letter-spacing: 0.4px;
+}
+
+/* ---------------------------------------
+Navbar and Navigation Styles / Overrides
+------------------------------------------ */
+.navbar-fixed-top {
+	position: absolute;
+	padding-top: 10px;
+}
+
+.navbar-nav li a {
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.3px;
+	font-size: 12px;
+}
+
+.dropdown.open .dropdown-menu li a {
+	transition: 0.5s ease-in-out;
+}
+
+.dropdown.open .dropdown-menu li a:hover {
+	color: #fde5b9;
+}
+
+.navbar-nav > li:first-child {
+	margin-right: 25px;
+}
+
+nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+	background-color: transparent;
+}
+
+/.navbar-nav li a:hover,
+.navbar-nav li a:focus {
+	background-color: transparent;
+}
+
+.navbar-nav>li>.dropdown-menu {
+	background-color: rgba(0,0,0,0.5);
+}
+
+
+
+
+
+/* -----------------------------
+Home Page Posters Styles
+-------------------------------- */
+
+#posters-wrapper {
+	padding-top: 75px;
+}
+.poster {
+	width: 30%;
+
+	margin-right: 4%;
+	display: inline-block;
+	position: relative;
+}
+
+
+/* Poster Overlay Styles */
+.poster-info-overlay {
+	position: absolute;
+	background: rgba(0,0,0,0.7);
+	bottom: 0;
+	left: 0;
+	opacity: 0;
+	transition: 0.5s ease-in-out;
+	padding: 30px 15px;
+}
+.poster-info-overlay h3 {
+	text-transform: uppercase;
+	font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 0.3px;
+  color: #fff;
+  margin: 0px;
+}
+.poster-info-overlay h4 {
+	text-transform: uppercase;
+	font-weight: 400;
+  font-size: 11px;
+  letter-spacing: 0.3px;
+  color: #fff;
+  margin: 0px;
+  margin-top: 15px;
+}
+.poster:hover .poster-info-overlay {
+	opacity: 1;
+}
+
+
+
+
+
+/* -----------------------------
+Footer Styles
+-------------------------------- */
+
+footer {
+	margin-top: 50px;
+}
+
+footer::before {
+	content: "";
+	display: block;
+	width: 90%;
+	margin-bottom: 20px;
+	border-top: 1px solid #dedede;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer p {
+	float: left;
+	color: #999;
+	letter-spacing: 0.3px;
+	font-size: 12px;
+	padding-bottom: 20px;
+}
+
+footer .social-media-icons {
+	float: right;
+}
+
+footer .social-media-icons i {
+	font-size: 24px;
+	color: #999;
+	transition: 0.5s ease-in-out;
+}
+
+footer .social-media-icons a:first-child {
+	margin-right: 20px;
+}
+
+footer .social-media-icons a:last-child:hover i {
+	color: #af0b0c;
+}
+
+footer .social-media-icons a:first-child:hover i {
+	color: #333;
+}

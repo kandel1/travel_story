@@ -1,0 +1,32 @@
+{
+    "location":[{
+           "title": "Langtang",
+           "number": 1,
+           "poster": "d.jpg",
+            "image": ["a.jpg","b.jpg", "c.jpg","e.jpg"],
+            "description" : "The frustration of the sixth semester exam led us to the mighty Langtang.After the tireless effort of giving exam for one month, we could not wait to wait to start our adventure.Myself(Sandesh) including my four friends went Langtang-Kyangin Ri for trekking. Kyangin Ri was one of the most beautiful places I have been in my life. Trekking was difficult but the astounding beauty of the nature made the journey worth it."
+              },
+
+             {
+            "title": "Bungee",
+            "number": 2,
+            "poster": "ddd.png",
+            "image":["aaa.jpg","bbb.jpg","ccc.jpg"],
+            "description" : "Third year of our Engineerin already started and the fear of not doing anything during the Engineering years worth to remember was haunting me and my friends. So we decided to do the bungee jumping. The day we spent on the resort which was The Last Resort was unforgetable moments of our lives and we will cherish it forever. The george, Bhoteskoshi river, green countryside and   top of that adrenaline rush of jump is what makes this place a must visit. "
+
+
+
+
+               },
+
+              {
+            "title": "Chitlang",
+            "number":3,
+            "poster": "cc.jpg",
+            "image":  ["aa.jpg","bb.jpg","dd.jpg"],
+            "description" : "After completing the four years of Engineering the dilemma for our career began. To take a break from all that we decided  to visit Chitlang. Only 2 hours away from city, Chitlang is the quiet and beautiful place. It has organic farm which welcomes the visitors for camping and sight-seeing. Just half hour away from Chitlang lies Kulekhani which has beautiful lake. Chitlang-Kulekhani is the good place to visit during weekends to be away from hustle and bustle of city. "
+
+
+               }]
+
+             }
